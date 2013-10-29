@@ -1,11 +1,8 @@
-/.settings
 /target
 /work
 /Workspaces
-/.classpath
 /.project
 /.springBeans
 /.tomcatplugin
 /.metadata
-/bin
 log.roo
