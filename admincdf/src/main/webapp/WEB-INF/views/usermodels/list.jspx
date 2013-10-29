@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_cdf_admin_entity_UserModel" items="${usermodels}" z="ycbAUMhJuttY41qMjGHnZEhX4+I=">
+        <table:table data="${usermodels}" id="l_com_cdf_admin_entity_UserModel" path="/usermodels" z="YAU3nhv6vLVNttQ4Ng01rLq1InI=">
+            <table:column id="c_com_cdf_admin_entity_UserModel_name" property="name" z="pf7JE6iFQLrvntMlHutqOCkjQAc="/>
+            <table:column id="c_com_cdf_admin_entity_UserModel_password" property="password" z="i6RyRs7HNPeThlsaDhXnnCjvUy8="/>
+            <table:column id="c_com_cdf_admin_entity_UserModel_firstName" property="firstName" z="ls1RsS8d2ZohnKm1C9rchtOhpsk="/>
+            <table:column id="c_com_cdf_admin_entity_UserModel_lastName" property="lastName" z="iycFRhuOeRtVSEe6KFYBfSDKxZI="/>
+            <table:column id="c_com_cdf_admin_entity_UserModel_email" property="email" z="nK3gB3sCDKFDfaIWOkQCb2bqH8I="/>
+        </table:table>
+    </page:list>
+</div>

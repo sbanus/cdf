@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_cdf_admin_entity_FavourModel" object="${favourmodel}" path="/favourmodels" z="s2bD5B6pycxrnFYKagh0x6x2ygk=">
+        <field:display field="userModel" id="s_com_cdf_admin_entity_FavourModel_userModel" object="${favourmodel}" z="Q3x59AWZcO0ZnHrxqKGRiSrUiVE="/>
+        <field:display field="description" id="s_com_cdf_admin_entity_FavourModel_description" object="${favourmodel}" z="Z4HR9Zi9o1IgvUu1kbb1sVEUdwQ="/>
+    </page:show>
+</div>
